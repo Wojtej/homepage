@@ -1,0 +1,22 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+.navigation {
+    padding: 10px;
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+}
+
+.navigation__list {
+    list-style: none;
+    text-align: left;
+    padding-left: 0;
+    font-size: 18px;
+}
